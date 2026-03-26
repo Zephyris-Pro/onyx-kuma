@@ -2,7 +2,7 @@
 <p align="center">
   Give your <a href="https://github.com/louislam/uptime-kuma">Uptime Kuma</a> status page a sleek dark and terminal-inspired look with Onyx-Kuma
   <br>
-  <a href="#"><strong>Live demo »</strong></a>
+  <a href="https://status.zephyris.pro"><strong>Live demo</strong></a>
   <br>
   <br>
   <a href="#features">Features</a>
