@@ -20,13 +20,12 @@
   --bs-info: #4e9bfa;
   --bs-light: #c4c4c4;
   --bs-dark: #3f3f3f;
-  --bs-primary-light: #00e9a7;
 
   /*Override Uptime Kuma defaults*/
   --bs-primary: #04d186;
   --bs-danger: #f32e3f;
   --bs-warning: #ff8c00;
-  --maintenance: #ECC94B;
+  --maintenance: #4c76ff;
 }
 
 html,
@@ -123,12 +122,27 @@ body:not(:has(.edit)) {
   order: 1;
   margin-left: auto;
   padding-left: 12px;
-  color: var(--bs-primary-light) !important;
   background: transparent !important;
   font-size: .75rem;
   font-weight: 600;
   letter-spacing: .02em;
   white-space: nowrap;
+}
+
+.badge.bg-primary {
+  color: var(--bs-primary) !important;
+}
+
+.badge.bg-danger {
+  color: var(--bs-danger) !important;
+}
+
+.badge.bg-warning {
+  color: var(--bs-warning) !important;
+}
+
+.badge.bg-maintenance {
+  color: var(--maintenance) !important;
 }
 
 .wrap {
