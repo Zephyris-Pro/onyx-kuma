@@ -243,10 +243,48 @@ body:not(:has(.edit)) {
   background-color: color-mix(in srgb, var(--bs-dark) 15%, transparent) !important;
 }
 
+.shadow-box.bg-maintenance {
+  border: 1px solid var(--maintenance) !important;
+  background-color: color-mix(in srgb, var(--maintenance) 15%, transparent) !important;
+}
+
 .shadow-box.incident-list-box {
   border: 1px solid var(--panel-border) !important;
   background-color: var(--panel-bg) !important;
 }
+
+.status-maintenance {
+  color: var(--maintenance) !important;
+}
+
+.status-down {
+  color: var(--bs-danger) !important;
+}
+
+.status-up {
+  color: var(--bs-primary) !important;
+}
+
+.status-pending {
+  color: var(--bs-warning) !important;
+}
+
+.status-danger {
+  color: var(--bs-danger) !important;
+}
+
+.danger {
+  color: var(--bs-danger) !important;
+}
+
+.warning {
+  color: var(--bs-warning) !important;
+}
+
+.ok {
+  color: var(--bs-primary) !important;
+}
+
 
 .incident-item {
   background-color: transparent !important;
