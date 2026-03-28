@@ -253,6 +253,9 @@ body:not(:has(.edit)) {
   background-color: var(--panel-bg) !important;
 }
 
+.p-3 {
+  padding: 1.5rem !important;
+}
 .status-maintenance {
   color: var(--maintenance) !important;
 }
@@ -284,7 +287,6 @@ body:not(:has(.edit)) {
 .ok {
   color: var(--bs-primary) !important;
 }
-
 
 .incident-item {
   background-color: transparent !important;
